@@ -1,0 +1,63 @@
+.flex{
+  display: flex;
+  color:white;
+}
+
+.header-top{
+  width:100%;
+  background-color: #031D2C;
+  height:2.5em;
+  font-size: 12px;
+}
+
+.white{
+  color:white;
+  padding-top:3px;
+  padding-right:8px;
+  padding-bottom: 3px;
+}
+
+.fa{
+  padding-top:6px;
+}
+
+.rg-log{
+  color:white;
+  text-decoration: none;
+}
+
+.rg-log:hover{
+  text-decoration: none;
+  color:orange;
+  transition: 1s;
+}
+
+
+/* header-top-2
+ */
+
+
+
+
+
+/*  menu section started */
+
+
+
+.menu{
+  width:100%;
+  background-color: #081621;
+}
+
+.navbar-expand-md{
+  width:100%;
+}
+
+.nav-link{
+  color:white;
+}
+
+.nav-link:hover{
+  color:rgb(214, 141, 5);
+}
+
