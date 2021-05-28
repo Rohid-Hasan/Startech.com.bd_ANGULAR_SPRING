@@ -1,0 +1,36 @@
+<div class="product-detail">
+  <div class="container">
+    <h2>{{product.title}}</h2>
+    <div class="d-flex" *ngFor= "let mainPoint of product.mainPoints">
+      <p>{{ mainPoint }}</p>
+    </div>
+    <div class="d-flex justify-content-between">
+      <div class="d-flex">
+        <p> 0 reviews</p>
+        <p> 0 reviews</p>
+        <p> 0 reviews</p>
+      </div>
+      <button class="btn btn-danger float-right">Add to compare</button>
+    </div>
+    <hr>
+    <div class="main-detail">
+      <div class="row">
+        <div class="col-sm-6">
+          <img src="../../../assets/img/product-detail.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="col-sm-6">
+          <h4>Key Feature:</h4>
+          <ul >
+            <li class="nav-item" *ngFor= "let mainPoints of product.mainPoints">{{mainPoints}}</li>
+          </ul>
+          <div class="cart-option d-flex">
+            <span>-</span>
+            <input type="text" class="form-control-sm">
+            <span>+</span>
+            <button class="btn btn-primary">Add TO  Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
